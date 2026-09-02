@@ -211,14 +211,26 @@ function Index() {
                     </span>
                   ))}
                 </div>
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="no-print mt-4 inline-flex items-center gap-1 text-[11px] font-medium text-sky hover:underline"
-                >
-                  View on GitHub <span aria-hidden="true">↗</span>
-                </a>
+                <div className="no-print mt-4 flex flex-wrap items-center gap-3">
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-1 text-[11px] font-medium text-sky hover:underline"
+                  >
+                    View on GitHub <span aria-hidden="true">↗</span>
+                  </a>
+                  {"downloadLink" in project && project.downloadLink && (
+                    <a
+                      href={project.downloadLink}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-1 text-[11px] font-medium text-sky hover:underline"
+                    >
+                      Download app <span aria-hidden="true">↗</span>
+                    </a>
+                  )}
+                </div>
               </article>
             ))}
           </div>
