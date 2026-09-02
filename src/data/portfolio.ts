@@ -98,6 +98,6 @@ export const experience = [
     year: "2025",
     company: "BroadVision · July to December",
     description:
-      "Provided daily technical support to clients across networking, software and hardware issues in a high pressure SLA environment. Built and maintained software solutions including AutoPrintR, wrote technical documentation, and collaborated with colleagues on client facing features.",
+      "Provided daily technical support to clients across networking, software and hardware issues in a high pressure SLA environment. Built and maintained software solutions including AutoPrintR, Wrote technical documentation, and collaborated with colleagues on client facing features.",
   },
 ];
