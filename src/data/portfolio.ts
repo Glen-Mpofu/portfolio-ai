@@ -94,7 +94,7 @@ export const certifications = [
 
 export const experience = [
   {
-    title: "Junior Software Developer, IT Support Technician & Software Development Intern (WIL)",
+    title: "Junior Software Developer & IT Support Technician",
     year: "2025",
     company: "BroadVision · July to December",
     description:
