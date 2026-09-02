@@ -1,5 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 
+import cvAsset from "@/assets/cv.pdf.asset.json";
+
+
 import {
   certifications,
   education,
@@ -66,13 +69,13 @@ function Index() {
             <a href="#contact" className="font-mono text-[11px] text-inkmuted">
               contact
             </a>
-            <button
-              type="button"
-              onClick={() => window.print()}
+            <a
+              href={cvAsset.url}
+              download="Tshepo-Mpofu-CV.pdf"
               className="rounded-full bg-ink px-3 py-1.5 text-xs font-medium text-background"
             >
               CV
-            </button>
+            </a>
           </nav>
         </div>
       </header>
@@ -106,14 +109,14 @@ function Index() {
             {profile.intro}
           </p>
           <div className="rise no-print mt-6 flex flex-wrap gap-2" style={{ animationDelay: "240ms" }}>
-            <button
-              type="button"
-              onClick={() => window.print()}
+            <a
+              href={cvAsset.url}
+              download="Tshepo-Mpofu-CV.pdf"
               className="relative overflow-hidden rounded-full bg-ink px-5 py-3 text-sm font-medium text-background"
             >
               <span className="relative z-10">Download CV</span>
               <span className="sheen absolute inset-y-0 left-0 z-0 w-16 bg-background/20" />
-            </button>
+            </a>
             <a
               href="#contact"
               className="rounded-full border border-ink/10 bg-background/50 px-5 py-3 text-sm font-medium text-ink backdrop-blur"
@@ -321,13 +324,13 @@ function Index() {
                 <span className="font-mono text-[10px] text-inkmuted">linkedin</span>
               </a>
             </div>
-            <button
-              type="button"
-              onClick={() => window.print()}
+            <a
+              href={cvAsset.url}
+              download="Tshepo-Mpofu-CV.pdf"
               className="no-print mt-4 block w-full rounded-xl bg-ink px-4 py-3 text-center text-sm font-medium text-background"
             >
               Download full CV
-            </button>
+            </a>
           </div>
         </section>
 
