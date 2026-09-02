@@ -10,23 +10,26 @@ export const profile = {
     "TUT Computer Science graduate building reliable, scalable software — from clean interfaces to the systems underneath.",
   about:
     "I graduated cum laude in Computer Science from the Tshwane University of Technology, specialising in full-stack development. I care about clean architecture, honest documentation, and shipping things that hold up in production. I'm currently open to internships and junior developer roles.",
-  email: "tshepo.mpofu@example.com",
-  github: "https://github.com/tshepompofu",
-  githubLabel: "github.com/tshepompofu",
-  linkedin: "https://www.linkedin.com/in/tshepo-mpofu",
-  linkedinLabel: "linkedin.com/in/tshepo-mpofu",
+  email: "mpofuglen23@gmail.com",
+  phone: "065 715 2241",
+  github: "https://github.com/Glen-Mpofu",
+  githubLabel: "github.com/Glen-Mpofu",
+  linkedin: "https://www.linkedin.com/in/tshepo-mpofu-6b37a3237",
+  linkedinLabel: "linkedin.com/in/tshepo-mpofu-6b37a3237",
 };
 
 export const technicalSkills = [
   "TypeScript",
   "JavaScript",
   "React",
+  "React Native",
   "Node.js",
+  "Express.js",
   "Python",
   "Java",
+  "Java Swing",
   "PostgreSQL",
   "Git & GitHub",
-  "Docker",
   "REST APIs",
 ];
 
@@ -41,25 +44,28 @@ export const softSkills = [
 
 export const projects = [
   {
-    name: "Ledgerflow",
+    name: "E-lections",
     year: "2025",
     description:
-      "Personal finance tracker with budgeting, spending insights and a clean weekly report view.",
-    tech: ["React", "Node", "Postgres"],
+      "E-voting platform built for my residence (La-Jazz) annual res-committee elections. Students on the residence Wi-Fi could log in and vote — no public registrations, only verified res students in the database.",
+    tech: ["React Native", "Node.js", "Express.js", "PostgreSQL"],
+    link: "https://github.com/Glen-Mpofu/E-Lections.git",
   },
   {
-    name: "Sentinel",
-    year: "2024",
+    name: "AutoPrintR",
+    year: "2025",
     description:
-      "Password manager with local-first encrypted storage and a fast, keyboard-driven UI.",
-    tech: ["TypeScript", "SQLite", "AES"],
+      "Desktop app built during my WIL programme that watches a selected folder and automatically prints any document added to it, saving the client from manually printing files one-by-one.",
+    tech: ["Java", "Java Swing"],
+    link: "https://github.com/Glen-Mpofu/AutoPrintR.git",
   },
   {
-    name: "Campusway",
-    year: "2024",
+    name: "FoodXP",
+    year: "2026",
     description:
-      "Campus events and club discovery built for mobile, with a lightweight real-time feed.",
-    tech: ["React Native", "Express", "Redis"],
+      "Recipe recommendation platform powered by AI. Users capture food items and get recipe suggestions, and can donate items like tinned beans to other users on the platform.",
+    tech: ["React", "Node.js", "AI", "PostgreSQL"],
+    link: "https://github.com/Glen-Mpofu/FoodXP.git",
   },
 ];
 
@@ -78,9 +84,9 @@ export const certifications = [
 export const experience = [
   {
     title: "Software Development Intern",
-    year: "2026",
-    company: "Work-integrated learning placement",
+    year: "2025",
+    company: "Work-integrated learning placement (July – December)",
     description:
-      "Built and maintained React interfaces, wrote documentation, and collaborated in an agile team on client-facing features.",
+      "Built and maintained software solutions including AutoPrintR, wrote documentation, and collaborated in an agile team on client-facing features.",
   },
 ];
