@@ -176,7 +176,7 @@ function Index() {
             {projects.map((project) => (
               <article
                 key={project.name}
-                className="glass overflow-hidden rounded-2xl p-4 ring-1 ring-ink/5"
+                className="group glass relative overflow-hidden rounded-2xl p-4 ring-1 ring-ink/5"
               >
                 <div className="flex items-center justify-between">
                   <h3 className="text-sm font-semibold">{project.name}</h3>
@@ -195,6 +195,14 @@ function Index() {
                     </span>
                   ))}
                 </div>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="no-print mt-4 inline-flex items-center gap-1 text-[11px] font-medium text-sky hover:underline"
+                >
+                  View on GitHub <span aria-hidden="true">↗</span>
+                </a>
               </article>
             ))}
           </div>
