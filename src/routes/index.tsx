@@ -259,13 +259,20 @@ function Index() {
         <section id="contact" className="pb-2">
           <div className="glass overflow-hidden rounded-2xl p-5 ring-1 ring-ink/5">
             <SectionLabel text="( 07 / contact )" />
-            <div className="mt-4 space-y-2 md:grid md:grid-cols-3 md:gap-2 md:space-y-0">
+            <div className="mt-4 space-y-2 md:grid md:grid-cols-2 md:gap-2 md:space-y-0">
               <a
                 href={`mailto:${profile.email}`}
                 className="flex items-center justify-between gap-2 rounded-xl bg-background/60 px-4 py-3 text-sm ring-1 ring-ink/5"
               >
                 <span className="truncate text-ink/80">{profile.email}</span>
                 <span className="font-mono text-[10px] text-inkmuted">email</span>
+              </a>
+              <a
+                href={`tel:${profile.phone.replace(/\s/g, "")}`}
+                className="flex items-center justify-between gap-2 rounded-xl bg-background/60 px-4 py-3 text-sm ring-1 ring-ink/5"
+              >
+                <span className="truncate text-ink/80">{profile.phone}</span>
+                <span className="font-mono text-[10px] text-inkmuted">phone</span>
               </a>
               <a
                 href={profile.github}
