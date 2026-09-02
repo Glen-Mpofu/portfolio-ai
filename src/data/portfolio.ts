@@ -70,6 +70,7 @@ export const projects = [
       "Desktop app built during my WIL programme that watches a selected folder and automatically prints any document added to it, saving the client from manually printing files one-by-one.",
     tech: ["Java", "Java Swing"],
     link: "https://github.com/Glen-Mpofu/AutoPrintR.git",
+    downloadLink: "https://drive.google.com/file/d/11tLQwCdeqVQgmQtrGK1A2n0E4r9GODBQ/view",
   },
   {
     name: "FoodXP",
