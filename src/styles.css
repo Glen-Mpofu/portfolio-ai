@@ -158,3 +158,42 @@
     color: var(--color-foreground);
   }
 }
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes sheen {
+  0% { transform: translateX(-140%) skewX(-12deg); }
+  60%, 100% { transform: translateX(260%) skewX(-12deg); }
+}
+@keyframes floaty {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(10px, -20px); }
+}
+
+@utility rise {
+  animation: rise 0.7s cubic-bezier(0.32, 0.72, 0, 1) both;
+}
+
+@utility glass {
+  background: color-mix(in srgb, white 55%, transparent);
+  backdrop-filter: blur(18px) saturate(150%);
+}
+
+@utility glass-strong {
+  background: color-mix(in srgb, white 72%, transparent);
+  backdrop-filter: blur(20px) saturate(160%);
+}
+
+@utility orb {
+  animation: floaty 12s ease-in-out infinite;
+}
+
+@utility sheen {
+  animation: sheen 3.4s cubic-bezier(0.32, 0.72, 0, 1) infinite 1.2s;
+}
+
+@media print {
+  .no-print { display: none !important; }
+}
