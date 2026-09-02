@@ -4,6 +4,8 @@ import {
   certifications,
   education,
   experience,
+  languages,
+
   profile,
   projects,
   softSkills,
@@ -163,7 +165,22 @@ function Index() {
                   ))}
                 </div>
               </div>
+              <div className="mt-4">
+
+                <p className="text-xs font-semibold text-ink">Languages</p>
+                <div className="mt-2 flex flex-wrap gap-1.5">
+                  {languages.map((language) => (
+                    <span
+                      key={language}
+                      className="rounded-full bg-background/70 px-2.5 py-1 text-[11px] text-ink/70 ring-1 ring-ink/5"
+                    >
+                      {language}
+                    </span>
+                  ))}
+                </div>
+              </div>
             </div>
+
           </section>
         </div>
 

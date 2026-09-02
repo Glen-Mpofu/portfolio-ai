@@ -4,12 +4,12 @@ export const profile = {
   name: "Tshepo Mpofu",
   initials: "TM",
   handle: "tshepo.mpofu",
-  qualification: "Computer Science · Cum Laude",
+  qualification: "Diploma in Computer Science · Cum Laude",
   role: "Junior Software Developer",
   intro:
     "TUT Computer Science graduate building reliable, scalable software — from clean interfaces to the systems underneath.",
   about:
-    "I graduated cum laude in Computer Science from the Tshwane University of Technology, specialising in full-stack development. I care about clean architecture, honest documentation, and shipping things that hold up in production. I'm currently open to internships and junior developer roles.",
+    "I'm a Computer Science graduate (Diploma, cum laude) from the Tshwane University of Technology with a strong interest in building real-world software solutions. I've built and deployed multiple applications across frontend and backend, and taken ownership of projects in collaborative, team-led environments. Alongside development I've worked as an IT support technician, resolving networking, software and hardware issues in a high-pressure SLA environment. I'm currently seeking internship or junior developer opportunities where I can grow as a developer and IT technician and contribute to meaningful, high-quality work.",
   email: "mpofuglen23@gmail.com",
   phone: "065 715 2241",
   github: "https://github.com/Glen-Mpofu",
@@ -19,28 +19,40 @@ export const profile = {
 };
 
 export const technicalSkills = [
-  "TypeScript",
   "JavaScript",
+  "TypeScript",
   "React",
   "React Native",
   "Node.js",
   "Express.js",
-  "Python",
+  "HTML & CSS",
   "Java",
   "Java Swing",
-  "PostgreSQL",
-  "Git & GitHub",
-  "REST APIs",
+  "Python",
+  "Kotlin",
+  "SQL / PostgreSQL",
+  "MongoDB",
+  "Selenium",
+  "Git & Version Control",
+  "Networking & OS troubleshooting (Windows/Linux)",
+  "IT systems analysis & administration",
+  "POS / retail systems (IQ Retail)",
+  "Hardware configuration",
+  "Technical documentation & reporting",
 ];
 
 export const softSkills = [
   "Communication",
-  "Teamwork",
+  "Teamwork & leadership",
   "Problem-solving",
-  "Ownership",
+  "Ownership & initiative",
+  "Customer query resolution",
+  "Working under SLA pressure",
   "Time management",
   "Adaptability",
 ];
+
+export const languages = ["English (Fluent)", "IsiZulu (Fluent)", "Sepedi (Basics)"];
 
 export const projects = [
   {
@@ -70,23 +82,42 @@ export const projects = [
 ];
 
 export const education = {
-  qualification: "National Diploma / BSc Computer Science",
-  period: "2022–25",
+  qualification: "Diploma in Computer Science",
+  period: "2023–25",
   institution: "Tshwane University of Technology · Cum Laude",
 };
 
 export const certifications = [
-  { name: "Coursera: Google IT Automation with Python", year: "2026" },
-  { name: "Coursera: Meta Front-End Developer", year: "2025" },
-  { name: "Unit Standards Programme — Completed", year: "2026" },
+  { name: "Google AI Essentials — Professional Certificate (Coursera)", year: "2026" },
 ];
 
 export const experience = [
   {
-    title: "Software Development Intern",
+    title: "Junior Software Developer & IT Support Technician",
     year: "2025",
-    company: "Work-integrated learning placement (July – December)",
+    company: "BroadVision",
     description:
-      "Built and maintained software solutions including AutoPrintR, wrote documentation, and collaborated in an agile team on client-facing features.",
+      "Provided daily technical support to clients across networking, software and hardware issues. Handled customer queries in a high-pressure SLA environment, led problem-solving for technical incidents, and translated technical issues into clear, non-technical explanations for clients.",
+  },
+  {
+    title: "Software Development Intern (WIL)",
+    year: "2025",
+    company: "Work-integrated learning placement · July – December",
+    description:
+      "Built and maintained software solutions including AutoPrintR, wrote technical documentation, and collaborated with a colleague on client-facing features.",
+  },
+  {
+    title: "Team Lead — Ride & Delivery Comparison App",
+    year: "2025",
+    company: "Industry Project · TUT",
+    description:
+      "Led a team of developers across TUT campuses to build a web app comparing ride-hailing and delivery services. Overcame complex API integration challenges by redesigning the app for simplified functionality and successful final delivery. Stack: React, Express.js, MongoDB, Selenium (Python).",
+  },
+  {
+    title: "Team Member — Energy Consumption Forecast App",
+    year: "2024",
+    company: "IBM Z Datathon",
+    description:
+      "Collaborated in a student team to build an app analysing household power usage and predicting future consumption for budgeting and optimisation. Focus: data analysis, prediction algorithms and UI design.",
   },
 ];
