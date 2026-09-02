@@ -9,7 +9,7 @@ export const profile = {
   intro:
     "TUT Computer Science graduate building reliable, scalable software from clean interfaces to the systems underneath.",
   about:
-    "I'm a Computer Science graduate (Diploma, cum laude) from the Tshwane University of Technology with a strong interest in building real-world software solutions. I've built and deployed multiple applications across frontend and backend, and taken ownership of projects in collaborative, team-led environments. Alongside development I've worked as an IT support technician, resolving networking, software and hardware issues in a high-pressure SLA environment. I'm currently seeking internship or junior developer opportunities where I can grow as a developer and IT technician and contribute to meaningful, high-quality work.",
+    "I'm a Computer Science graduate (Diploma, cum laude) from the Tshwane University of Technology with a strong interest in building real world software solutions. I've built and deployed multiple applications across frontend and backend, and taken ownership of projects in collaborative, team led environments. Alongside development I've worked as an IT support technician, resolving networking, software and hardware issues in a high pressure SLA environment. I'm currently seeking internship or junior developer opportunities where I can grow as a developer and IT technician and contribute to meaningful, high quality work.",
   email: "mpofuglen23@gmail.com",
   phone: "065 715 2241",
   github: "https://github.com/Glen-Mpofu",
@@ -44,7 +44,7 @@ export const technicalSkills = [
 export const softSkills = [
   "Communication",
   "Teamwork & leadership",
-  "Problem-solving",
+  "Problem solving",
   "Ownership & initiative",
   "Customer query resolution",
   "Working under SLA pressure",
@@ -59,7 +59,7 @@ export const projects = [
     name: "E-lections",
     year: "2025",
     description:
-      "E-voting platform built for my residence (La-Jazz) annual res-committee elections. Students on the residence Wi-Fi could log in and vote. No public registrations, only verified res students in the database.",
+      "E-voting platform built for my residence (La Jazz) annual res committee elections. Students on the residence Wi-Fi could log in and vote. No public registrations, only verified res students in the database.",
     tech: ["React Native", "Node.js", "Express.js", "PostgreSQL"],
     link: "https://github.com/Glen-Mpofu/E-Lections.git",
   },
@@ -67,7 +67,7 @@ export const projects = [
     name: "AutoPrintR",
     year: "2025",
     description:
-      "Desktop app built during my WIL programme that watches a selected folder and automatically prints any document added to it, saving the client from manually printing files one-by-one.",
+      "Desktop app built during my WIL programme that watches a selected folder and automatically prints any document added to it, saving the client from manually printing files one by one.",
     tech: ["Java", "Java Swing"],
     link: "https://github.com/Glen-Mpofu/AutoPrintR.git",
     downloadLink: "https://drive.google.com/file/d/11tLQwCdeqVQgmQtrGK1A2n0E4r9GODBQ/view",
@@ -98,6 +98,6 @@ export const experience = [
     year: "2025",
     company: "BroadVision · July to December",
     description:
-      "Provided daily technical support to clients across networking, software and hardware issues in a high-pressure SLA environment. Built and maintained software solutions including AutoPrintR, wrote technical documentation, and collaborated with colleagues on client-facing features.",
+      "Provided daily technical support to clients across networking, software and hardware issues in a high pressure SLA environment. Built and maintained software solutions including AutoPrintR, wrote technical documentation, and collaborated with colleagues on client facing features.",
   },
 ];
