@@ -4,6 +4,8 @@ import {
   certifications,
   education,
   experience,
+  languages,
+
   profile,
   projects,
   softSkills,
