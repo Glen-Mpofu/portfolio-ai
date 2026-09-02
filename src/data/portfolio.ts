@@ -94,31 +94,10 @@ export const certifications = [
 
 export const experience = [
   {
-    title: "Junior Software Developer & IT Support Technician",
+    title: "Junior Software Developer, IT Support Technician & Software Development Intern (WIL)",
     year: "2025",
-    company: "BroadVision",
+    company: "BroadVision · July – December",
     description:
-      "Provided daily technical support to clients across networking, software and hardware issues. Handled customer queries in a high-pressure SLA environment, led problem-solving for technical incidents, and translated technical issues into clear, non-technical explanations for clients.",
-  },
-  {
-    title: "Software Development Intern (WIL)",
-    year: "2025",
-    company: "Work-integrated learning placement · July – December",
-    description:
-      "Built and maintained software solutions including AutoPrintR, wrote technical documentation, and collaborated with a colleague on client-facing features.",
-  },
-  {
-    title: "Team Lead — Ride & Delivery Comparison App",
-    year: "2025",
-    company: "Industry Project · TUT",
-    description:
-      "Led a team of developers across TUT campuses to build a web app comparing ride-hailing and delivery services. Overcame complex API integration challenges by redesigning the app for simplified functionality and successful final delivery. Stack: React, Express.js, MongoDB, Selenium (Python).",
-  },
-  {
-    title: "Team Member — Energy Consumption Forecast App",
-    year: "2024",
-    company: "IBM Z Datathon",
-    description:
-      "Collaborated in a student team to build an app analysing household power usage and predicting future consumption for budgeting and optimisation. Focus: data analysis, prediction algorithms and UI design.",
+      "Provided daily technical support to clients across networking, software and hardware issues in a high-pressure SLA environment. Built and maintained software solutions including AutoPrintR, wrote technical documentation, and collaborated with colleagues on client-facing features.",
   },
 ];
