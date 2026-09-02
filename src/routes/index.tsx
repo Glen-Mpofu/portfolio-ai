@@ -12,7 +12,7 @@ import {
   technicalSkills,
 } from "@/data/portfolio";
 
-const title = "Tshepo Mpofu — Junior Software Developer Portfolio";
+const title = "Tshepo Mpofu - Junior Software Developer Portfolio";
 const description =
   "Portfolio of Tshepo Mpofu, cum laude Computer Science graduate from TUT: projects, skills, education, certifications and contact details.";
 
@@ -333,7 +333,7 @@ function Index() {
 
         <footer className="pt-8 text-center">
           <p className="font-mono text-[10px] text-inkmuted">
-            © 2026 {profile.name} — built with intent
+            © 2026 {profile.name} - built with intent
           </p>
         </footer>
       </main>

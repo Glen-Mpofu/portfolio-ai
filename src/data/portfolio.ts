@@ -7,7 +7,7 @@ export const profile = {
   qualification: "Diploma in Computer Science · Cum Laude",
   role: "Junior Software Developer",
   intro:
-    "TUT Computer Science graduate building reliable, scalable software — from clean interfaces to the systems underneath.",
+    "TUT Computer Science graduate building reliable, scalable software - from clean interfaces to the systems underneath.",
   about:
     "I'm a Computer Science graduate (Diploma, cum laude) from the Tshwane University of Technology with a strong interest in building real-world software solutions. I've built and deployed multiple applications across frontend and backend, and taken ownership of projects in collaborative, team-led environments. Alongside development I've worked as an IT support technician, resolving networking, software and hardware issues in a high-pressure SLA environment. I'm currently seeking internship or junior developer opportunities where I can grow as a developer and IT technician and contribute to meaningful, high-quality work.",
   email: "mpofuglen23@gmail.com",
@@ -59,7 +59,7 @@ export const projects = [
     name: "E-lections",
     year: "2025",
     description:
-      "E-voting platform built for my residence (La-Jazz) annual res-committee elections. Students on the residence Wi-Fi could log in and vote — no public registrations, only verified res students in the database.",
+      "E-voting platform built for my residence (La-Jazz) annual res-committee elections. Students on the residence Wi-Fi could log in and vote - no public registrations, only verified res students in the database.",
     tech: ["React Native", "Node.js", "Express.js", "PostgreSQL"],
     link: "https://github.com/Glen-Mpofu/E-Lections.git",
   },
@@ -89,7 +89,7 @@ export const education = {
 };
 
 export const certifications = [
-  { name: "Google AI Essentials — Professional Certificate (Coursera)", year: "2026" },
+  { name: "Google AI Essentials - Professional Certificate (Coursera)", year: "2026" },
 ];
 
 export const experience = [
