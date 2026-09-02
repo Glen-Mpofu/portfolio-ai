@@ -333,7 +333,7 @@ function Index() {
 
         <footer className="pt-8 text-center">
           <p className="font-mono text-[10px] text-inkmuted">
-            © 2026 {profile.name} · built with intent
+            © 2026 {profile.name} · build creatively
           </p>
         </footer>
       </main>
