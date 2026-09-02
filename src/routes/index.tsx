@@ -164,7 +164,9 @@ function Index() {
                     </span>
                   ))}
                 </div>
+              </div>
               <div className="mt-4">
+
                 <p className="text-xs font-semibold text-ink">Languages</p>
                 <div className="mt-2 flex flex-wrap gap-1.5">
                   {languages.map((language) => (
